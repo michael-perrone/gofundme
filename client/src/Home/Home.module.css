@@ -1,0 +1,28 @@
+#homeContainer {
+    background-color: rgb(226, 226, 226);
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+}
+
+#helpFam {
+    font-family: 'Fredoka One', cursive;
+    font-size: 32px;
+    margin-right: 10px;
+}
+
+@media (max-width: 500px) {
+    #helpFam {
+        font-size: 26px;
+    }
+}
+
+#header {
+     padding-top: 10px;
+     display: flex; 
+     justify-content: space-between;
+}
+
+#imgId {
+    margin-left: 10px;
+}

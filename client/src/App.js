@@ -1,7 +1,7 @@
 import React from "react";
 import decoder from "jwt-decode";
 import { connect } from "react-redux";
-import Home from "./Home";
+import Home from "./Home/Home";
 
 class App extends React.Component {
   /* <Switch>
