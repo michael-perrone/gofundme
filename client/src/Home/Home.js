@@ -28,8 +28,12 @@ const Home = () => {
     }
 
     function topClicked() {
-        window.scrollTo(0, 600);
+        window.scrollTo({
+            top: 1000,
+            behavior: 'smooth'
+        });
     }
+
 
     function middleClicked() {
         window.scrollTo(0, 1100)
