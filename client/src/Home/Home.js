@@ -30,7 +30,7 @@ const Home = () => {
     function topClicked() {
         if (window.innerWidth > 400 && window.innerWidth < 500) {
             window.scrollTo({
-                top: 500,
+                top: 550,
                 behavior: "smooth"
             })
         }
@@ -58,7 +58,7 @@ const Home = () => {
         }
         else if (window.innerWidth >= 300 && window.innerWidth <= 400) {
             window.scrollTo({
-                top: 1240,
+                top: 1255,
                 behavior: 'smooth'
             });
         }
