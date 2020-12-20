@@ -28,19 +28,50 @@ const Home = () => {
     }
 
     function topClicked() {
-        window.scrollTo({
-            top: 1000,
-            behavior: 'smooth'
-        });
+        if (window.innerWidth > 400 && window.innerWidth < 500) {
+            window.scrollTo({
+                top: 500,
+                behavior: "smooth"
+            })
+        }
+        else if (window.innerWidth >= 300 && window.innerWidth <= 400) {
+            window.scrollTo({
+                top: 600,
+                behavior: 'smooth'
+            });
+        }
+        else {
+            window.scrollTo({
+                top: 400,
+                behavior: 'smooth'
+            });
+        }
     }
 
 
     function middleClicked() {
-        window.scrollTo(0, 1100)
+        if (window.innerWidth > 400 && window.innerWidth < 500) {
+            window.scrollTo({
+                top: 1150,
+                behavior: "smooth"
+            })
+        }
+        else if (window.innerWidth >= 300 && window.innerWidth <= 400) {
+            window.scrollTo({
+                top: 1220,
+                behavior: 'smooth'
+            });
+        }
+        else {
+            window.scrollTo({
+                top: 1050,
+                behavior: 'smooth'
+            });
+        }
     }
 
     function lastClicked() {
-        window.scrollTo(0, 1600);
+        window.scrollTo(0, 2000);
     }
 
     setInterval(changePic, 5000);

@@ -1,3 +1,8 @@
+
+html {
+    scroll-behavior: smooth;
+}
+
 .list {
     font-size: 22px;
     font-weight: bold;
@@ -48,6 +53,3 @@
     margin-top: 60px;
 }
 
-html {
-    scroll-behavior: smooth;
-}
