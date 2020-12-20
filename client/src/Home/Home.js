@@ -52,13 +52,13 @@ const Home = () => {
     function middleClicked() {
         if (window.innerWidth > 400 && window.innerWidth < 500) {
             window.scrollTo({
-                top: 1150,
+                top: 1170,
                 behavior: "smooth"
             })
         }
         else if (window.innerWidth >= 300 && window.innerWidth <= 400) {
             window.scrollTo({
-                top: 1220,
+                top: 1240,
                 behavior: 'smooth'
             });
         }
