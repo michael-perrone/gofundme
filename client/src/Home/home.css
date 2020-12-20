@@ -47,3 +47,7 @@
 #first-spec-p {
     margin-top: 60px;
 }
+
+html {
+    scroll-behavior: smooth;
+}
